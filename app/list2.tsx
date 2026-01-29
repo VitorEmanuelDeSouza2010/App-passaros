@@ -3,11 +3,11 @@ import { Header } from "@/components/header";
 import { Item } from "@/components/item";
 import { router } from "expo-router";
 import {
-  FlatList,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
+    FlatList,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 

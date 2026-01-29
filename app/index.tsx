@@ -29,9 +29,16 @@ export default function HomePage() {
             style={s.img2}
           />
         </View>
+
+        <View style={s.up}>
+          <TouchableOpacity style={s.btn} onPress={visit}>
+            <Text style={s.btnText}>Lista de passaros</Text>
+          </TouchableOpacity>
+        </View>
+
         <View>
           <TouchableOpacity style={s.btn} onPress={visit}>
-            <Text style={s.btnText}>Ir lpara listas</Text>
+            <Text style={s.btnText}>Lista de pedras</Text>
           </TouchableOpacity>
         </View>
       </ScrollView>
@@ -97,5 +104,8 @@ const s = StyleSheet.create({
     width: "100%",
     height: 250,
     marginBottom: 30,
+  },
+  up: {
+    marginTop: -24,
   },
 });
