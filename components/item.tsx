@@ -9,7 +9,7 @@ export const Item = ({
 }: {
   name: string;
   age: string;
-  date: string;
+  date?: string;
   image: string;
 }) => {
   return (

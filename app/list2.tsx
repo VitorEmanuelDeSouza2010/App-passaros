@@ -1,13 +1,13 @@
-import dados from "@/assets/constants/mock";
+import dados2 from "@/assets/constants/mock2";
 import { Header } from "@/components/header";
 import { Item } from "@/components/item";
 import { router } from "expo-router";
 import {
-    FlatList,
-    StyleSheet,
-    Text,
-    TouchableOpacity,
-    View,
+  FlatList,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -27,14 +27,9 @@ export default function List() {
 
       <SafeAreaView style={s.wrapList}>
         <FlatList
-          data={dados}
+          data={dados2}
           renderItem={({ item }) => (
-            <Item
-              name={item.nome}
-              image={item.imagem}
-              date={item.nascimento}
-              age={item.idade}
-            />
+            <Item name={item.nome} image={item.imagem} age={item.idade} />
           )}
         ></FlatList>
       </SafeAreaView>

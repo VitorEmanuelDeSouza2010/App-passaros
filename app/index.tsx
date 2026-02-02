@@ -15,6 +15,10 @@ export default function HomePage() {
     router.push("/list");
   };
 
+  const visit2 = () => {
+    router.push("/list2");
+  };
+
   return (
     <SafeAreaView>
       <Header image={require("@/assets/images/passaros.jpg")} />
@@ -37,8 +41,8 @@ export default function HomePage() {
         </View>
 
         <View>
-          <TouchableOpacity style={s.btn} onPress={visit}>
-            <Text style={s.btnText}>Lista de pedras</Text>
+          <TouchableOpacity style={s.btn} onPress={visit2}>
+            <Text style={s.btnText}>Lista de Ovos</Text>
           </TouchableOpacity>
         </View>
       </ScrollView>

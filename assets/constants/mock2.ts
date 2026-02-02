@@ -1,62 +1,72 @@
 const data2 = [
   {
     id: "11",
-    nome: "Pedra",
+    nome: "OVO",
     idade: "??",
+    imagem: require("@/assets/images/OVO.png"),
   },
 
   {
     id: "12",
-    nome: "Pedra",
+    nome: "OVO",
     idade: "??",
+    imagem: require("@/assets/images/OVO.png"),
   },
 
   {
     id: "13",
-    nome: "Pedra",
+    nome: "OVO",
     idade: "??",
+    imagem: require("@/assets/images/OVO.png"),
   },
 
   {
     id: "14",
-    nome: "Pedra",
+    nome: "OVO",
     idade: "??",
+    imagem: require("@/assets/images/OVO.png"),
   },
 
   {
     id: "15",
-    nome: "Pedra",
+    nome: "OVO",
     idade: "??",
+    imagem: require("@/assets/images/OVO.png"),
   },
 
   {
     id: "16",
-    nome: "Pedra",
+    nome: "OVO",
     idade: "??",
+    imagem: require("@/assets/images/OVO.png"),
   },
 
   {
     id: "17",
-    nome: "Pedra",
+    nome: "OVO",
     idade: "??",
+    imagem: require("@/assets/images/OVO.png"),
   },
 
   {
     id: "18",
-    nome: "Pedra",
+    nome: "OVO",
     idade: "??",
+    imagem: require("@/assets/images/OVO.png"),
   },
 
   {
     id: "19",
-    nome: "Pedra",
+    nome: "OVO",
     idade: "??",
+    imagem: require("@/assets/images/OVO.png"),
   },
 
   {
     id: "20",
-    nome: "Pedra",
+    nome: "OVO",
     idade: "??",
+    imagem: require("@/assets/images/OVO.png"),
   },
 ];
 
